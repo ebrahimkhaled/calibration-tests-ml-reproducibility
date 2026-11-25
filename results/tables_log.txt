@@ -1,0 +1,60 @@
+
+Table I (N = 16000, rate = 0.15, reps = 200)
+True risk & 0.810 & 0.0 & 6 & 6 & 6 & 5 & 6 \\
+LR, raw & 0.784 & 1.8 & 78 & 98 & 24 & 91 & 80 \\
+LR, Platt & 0.784 & 1.8 & 80 & 96 & 22 & 93 & 76 \\
+LR, isotonic & 0.783 & 1.2 & 48 & 42 & 37 & 44 & 37 \\
+LR, temperature & 0.784 & 1.7 & 80 & 96 & 26 & 91 & 73 \\
+RF, raw & 0.771 & 1.9 & 97 & 97 & 98 & 100 & 76 \\
+RF, Platt & 0.771 & 1.1 & 55 & 30 & 24 & 61 & 34 \\
+RF, isotonic & 0.769 & 1.3 & 46 & 42 & 36 & 40 & 35 \\
+RF, temperature & 0.771 & 2.2 & 95 & 96 & 96 & 98 & 81 \\
+XGB, raw & 0.783 & 2.9 & 100 & 100 & 100 & 100 & 100 \\
+XGB, Platt & 0.783 & 0.9 & 20 & 30 & 22 & 33 & 22 \\
+XGB, isotonic & 0.781 & 1.2 & 44 & 53 & 44 & 44 & 36 \\
+XGB, temperature & 0.783 & 2.1 & 92 & 98 & 98 & 96 & 84 \\
+NN, raw & 0.789 & 2.0 & 92 & 98 & 98 & 96 & 86 \\
+NN, Platt & 0.789 & 0.9 & 19 & 33 & 25 & 37 & 22 \\
+NN, isotonic & 0.788 & 1.2 & 46 & 43 & 38 & 40 & 38 \\
+NN, temperature & 0.789 & 1.6 & 74 & 88 & 88 & 83 & 64 \\
+not always computed: ('breast_cancer', 'LR_isotonic', 'EDGE') 0.50
+not always computed: ('breast_cancer', 'LR_none', 'EDGE') 0.11
+not always computed: ('breast_cancer', 'LR_none', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'LR_platt', 'EDGE') 0.10
+not always computed: ('breast_cancer', 'LR_platt', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'LR_temperature', 'EDGE') 0.11
+not always computed: ('breast_cancer', 'LR_temperature', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'NN_isotonic', 'EDGE') 0.78
+not always computed: ('breast_cancer', 'NN_isotonic', 'GiViTI') 0.98
+not always computed: ('breast_cancer', 'NN_none', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'NN_platt', 'EDGE') 0.93
+not always computed: ('breast_cancer', 'NN_platt', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'NN_temperature', 'EDGE') 0.98
+not always computed: ('breast_cancer', 'NN_temperature', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'RF_isotonic', 'EDGE') 0.82
+not always computed: ('breast_cancer', 'RF_none', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'RF_platt', 'EDGE') 0.98
+not always computed: ('breast_cancer', 'RF_platt', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'RF_temperature', 'EDGE') 0.99
+not always computed: ('breast_cancer', 'RF_temperature', 'GiViTI') 0.99
+not always computed: ('breast_cancer', 'XGB_isotonic', 'EDGE') 0.76
+not always computed: ('breast_cancer', 'XGB_platt', 'EDGE') 0.98
+not always computed: ('breast_cancer', 'XGB_temperature', 'EDGE') 0.99
+
+Table II
+Heart, LR & 0.89 & 0.62 & 13.5 & 69/27 & 54/15 & 65/22 & 47/11 \\
+Heart, RF & 0.90 & 1.43 & 13.2 & 1/38 & 13/20 & 2/31 & 1/12 \\
+Heart, XGB & 0.88 & 0.48 & 15.2 & 97/23 & 91/15 & 95/16 & 88/12 \\
+Heart, NN & 0.88 & 0.59 & 14.3 & 80/25 & 60/20 & 74/22 & 57/12 \\
+Breast, LR & 0.96 & 0.48 & 4.3 & 99/23 & 100/20 & n/a & 99/17 \\
+Breast, RF & 0.99 & 1.47 & 5.5 & 15/39 & 34/40 & 9/37 & 0/23 \\
+Breast, XGB & 0.99 & 0.89 & 3.7 & 40/35 & 13/29 & 27/27 & 19/20 \\
+Breast, NN & 0.99 & 1.11 & 3.5 & 20/32 & 9/31 & 14/31 & 2/20 \\
+Pima, LR & 0.83 & 0.92 & 8.8 & 15/13 & 11/24 & 20/24 & 15/15 \\
+Pima, RF & 0.83 & 1.02 & 8.5 & 4/11 & 2/11 & 3/13 & 2/8 \\
+Pima, XGB & 0.80 & 0.37 & 16.4 & 100/4 & 100/10 & 100/9 & 100/11 \\
+Pima, NN & 0.83 & 0.76 & 9.3 & 36/8 & 34/13 & 44/15 & 24/9 \\
+CDC, LR & 0.82 & 1.00 & 1.4 & 100/100 & 0/10 & 100/100 & 100/100 \\
+CDC, RF & 0.80 & 0.73 & 2.0 & 100/100 & 100/30 & 100/100 & 100/100 \\
+CDC, XGB & 0.83 & 0.97 & 0.4 & 40/20 & 50/10 & 50/20 & 50/20 \\
+CDC, NN & 0.83 & 1.01 & 0.5 & 50/0 & 60/10 & 80/40 & 40/10 \\

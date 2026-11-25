@@ -1,0 +1,21 @@
+Licence for results, figures and documentation
+
+Copyright (c) 2026 Ebrahim Khaled Ebrahim
+
+Everything in this repository that is not code (see LICENSE) and not one of the
+four input data sets is licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0): the files in results/ and figures/, and the
+README and other documentation.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The input data sets in data/raw and data/clean keep their own terms:
+  - Pima Indians diabetes: OpenML data set 37 (public);
+  - Wisconsin diagnostic breast cancer: UCI Machine Learning Repository,
+    doi:10.24432/C5DW2B, CC BY 4.0;
+  - Cleveland heart disease: UCI Machine Learning Repository,
+    doi:10.24432/C52P4X, CC BY 4.0;
+  - CDC Diabetes Health Indicators: UCI Machine Learning Repository,
+    doi:10.24432/C53919, derived from the CDC Behavioral Risk Factor
+    Surveillance System 2015 (US Government work, public domain).
+The cleaned versions are changed as described in README.md.

@@ -1,0 +1,27 @@
+{
+  "title": "Reproduction materials: Accurate but Miscalibrated: Testing the Risk Estimates of Medical Machine Learning Classifiers",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Ebrahim, Ebrahim Khaled",
+      "affiliation": "Department of Applied Statistics, Faculty of Business, Alexandria University, Alexandria, Egypt",
+      "orcid": "0009-0006-7839-8778"
+    }
+  ],
+  "description": "<p>Code, data and results for the paper \"Accurate but Miscalibrated: Testing the Risk Estimates of Medical Machine Learning Classifiers\" by Ebrahim Khaled Ebrahim.</p><p>The study compares nine calibration tests (Hosmer-Lemeshow, Spiegelhalter's z, the Cox slope-and-intercept test, calibration-in-the-large, the GiViTI calibration belt, Osius-Rojek, Stukel, EDGE and a bootstrap test of the expected calibration error) on medical classifiers whose true risk is known: a controlled simulation with known distortions (81,000 replicates), a plasmode simulation on real CDC BRFSS covariates with logistic regression, random forest, XGBoost and a neural network before and after Platt, isotonic and temperature recalibration (1800 replicates), and four public medical data sets.</p><p>The deposit holds the Python and R scripts that produce every number, table and figure, the input data, the per-replicate test results, the summaries and the figures. Code is under the MIT licence; results, figures and documentation under CC BY 4.0; the data sets keep their own licences. See README.md for the run order.</p>",
+  "keywords": [
+    "Calibration",
+    "Goodness of fit",
+    "Machine learning",
+    "Clinical prediction models",
+    "Hosmer-Lemeshow test",
+    "Recalibration",
+    "Expected calibration error",
+    "Simulation"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "notes": "Code: MIT licence. Results, figures and documentation: CC BY 4.0. Input data sets: their own licences (see README.md)."
+}

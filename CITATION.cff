@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Reproduction materials: Accurate but Miscalibrated: Testing the Risk Estimates of Medical Machine Learning Classifiers"
+type: software
+version: 1.0.0
+date-released: 2026-11-25
+license: MIT
+repository-code: "https://github.com/ebrahimkhaled/calibration-tests-ml-reproducibility"
+authors:
+  - family-names: Ebrahim
+    given-names: Ebrahim Khaled
+    affiliation: "Department of Applied Statistics, Faculty of Business, Alexandria University"
+    orcid: "https://orcid.org/0009-0006-7839-8778"
+keywords:
+  - calibration
+  - goodness of fit
+  - machine learning
+  - clinical prediction models
+  - recalibration

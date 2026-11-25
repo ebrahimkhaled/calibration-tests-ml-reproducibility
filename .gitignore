@@ -1,0 +1,7 @@
+__pycache__/
+.Rhistory
+Thumbs.db
+.DS_Store
+results/simB/
+results/real/
+manuscript/
